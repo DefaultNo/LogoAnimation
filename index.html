@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220811193745">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="cursor"></div>
+	<div class="follower"></div>
+	<div class="wrapper">
+		<header data-scroll="130" class="header">
+			<div class="header__container _container">
+				<a href="" class="header__logo">
+					Logo
+				</a>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li class="header__item">
+							<a data-goto-header data-goto=".history" href="" class="header__link">About</a>
+						</li>
+						<li class="header__item">
+							<a data-goto-header data-goto=".projects" href="" class="header__link">Projects</a>
+						</li>
+						<li class="header__item">
+							<a data-goto-header data-goto=".about-me" href="" class="header__link">Reviews</a>
+						</li>
+						<li class="header__item">
+							<a data-goto-header data-goto=".footer" href="" class="header__link">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="overlay">
+				<section class="home">
+					<div class="home__container">
+						<div class="home__content">
+							<h1 class="home__title">Michael Scofield</h1>
+							<h4 class="home__sub-title">Fullstack web developer</h4>
+							<ul class="home__items">
+								<li class="home__item">UI / UX Design</li>
+								<li class="home__item">QA Testing</li>
+								<li class="home__item">Mobile Apps</li>
+								<li class="home__item">Web development</li>
+							</ul>
+						</div>
+						<div class="home__animation">
+							<canvas width="550" height="550" id="animation"></canvas>
+						</div>
+					</div>
+				</section>
+
+				<section class="history">
+					<div class="history__container">
+						<h4 class="history__sub-title sub-title">About</h4>
+						<h3 class="history__title title">History of my development:</h3>
+						<div class="history__body">
+							<div class="history__item item-history">
+								<div class="item-history__number">2015</div>
+								<div class="item-history__text">First project. Blog for the teacher</div>
+							</div>
+							<div class="history__item item-history">
+								<div class="item-history__number">2016</div>
+								<div class="item-history__text">Development of the first mobile application</div>
+							</div>
+							<div class="history__item item-history">
+								<div class="item-history__number">2017</div>
+								<div class="item-history__text">The portfolio includes over 100 projects</div>
+							</div>
+							<div class="history__item item-history">
+								<div class="item-history__number">2018</div>
+								<div class="item-history__text">First international project</div>
+							</div>
+							<div class="history__item item-history">
+								<div class="item-history__number">2019</div>
+								<div class="item-history__text">Launching a personal web development course</div>
+							</div>
+							<div class="history__item item-history">
+								<div class="item-history__number">2020+</div>
+								<div class="item-history__text">Started working in Google</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="projects">
+					<div class="projects__container">
+						<h4 class="history__sub-title sub-title">Projects</h4>
+						<h3 class="history__title title">100+ projects on different topics:</h3>
+
+						<div class="projects__body">
+							<div data-tabs class="projects__tabs tabs-projects">
+								<nav data-tabs-titles class="tabs-projects__navigation">
+									<button type="button" class="tabs-projects__title _tab-active">Blogs</button>
+									<button type="button" class="tabs-projects__title">CRM</button>
+									<button type="button" class="tabs-projects__title">Educational platform</button>
+									<button type="button" class="tabs-projects__title">Banking applications</button>
+									<button type="button" class="tabs-projects__title">Mobile applications</button>
+									<button type="button" class="tabs-projects__title">Mobile games</button>
+									<button type="button" class="tabs-projects__title">Social networks</button>
+								</nav>
+								<div data-tabs-body class="tabs-projects__content">
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											<div class="tabs-projects__name">Blogs</div>
+											<div class="tabs-projects__content">
+												<div data-spoilers data-one-spoiler class="tabs-projects__spoilers">
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title _spoiler-active">
+															Blog 1
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title">
+															Blog 2
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site some kind of link to the site</div>
+													</div>
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title">
+															Blog 3
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											<div class="tabs-projects__name">CRM</div>
+											<div class="tabs-projects__content">
+												<div data-spoilers data-one-spoiler class="tabs-projects__spoilers">
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title _spoiler-active">
+															CRM 1
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title">
+															CRM 2
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											<div class="tabs-projects__name">Educational platform</div>
+											<div class="tabs-projects__content">
+												<div data-spoilers data-one-spoiler class="tabs-projects__spoilers">
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title _spoiler-active">
+															Educational platform
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title">
+															Educational platform 2
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+													<div class="tabs-projects__spoiler-item">
+														<button type="button" data-spoiler class="tabs-projects__spoiler-title">
+															Educational platform 3
+															<span>
+																<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.7212 12.1386L13.6817 12.1385L13.6817 3.399L1.87706 14.53L0.500293 13.0771L12.2395 2.0102L3.16381 2.0102L3.16376 0.0462109H15.7213L15.7212 12.1386Z" fill="white" />
+																</svg>
+															</span>
+														</button>
+														<div class="tabs-projects__spoiler-body">some kind of link to the site</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										</div>
+									</div>
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										</div>
+									</div>
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										</div>
+									</div>
+									<div class="tabs-projects__body">
+										<div class="tabs-projects__content">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="discuss">
+					<div class="discuss__container">
+						<div class="discuss__title">Write to me and I will answer within the next 24 hours</div>
+						<div class="discuss__sub-title">Discuss the project</div>
+					</div>
+				</div>
+
+				<div class="about-me">
+					<div class="about-me__container">
+						<h4 class="history__sub-title sub-title">Reviews</h4>
+						<h3 class="history__title title">What my clients say about me:</h3>
+
+						<div class="about-me__body">
+							<div class="about-me__wrap">
+								<div class="about-me__slider swiper">
+									<div class="about-me__wrapper swiper-wrapper">
+										<div class="about-me__slide swiper-slide">
+											<div class="about-me__avatar">
+												<img src="img/avatar.png" alt="Аватар">
+											</div>
+											<div class="about-me__name">Lincoln Burrows</div>
+											<div class="about-me__text">
+												Thanks to Michael for doing everything efficiently on time and without broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not included in the original.
+											</div>
+										</div>
+										<div class="about-me__slide swiper-slide">
+											<div class="about-me__avatar">
+												<img src="img/avatar.png" alt="Аватар">
+											</div>
+											<div class="about-me__name">Gretchen Morgan</div>
+											<div class="about-me__text">
+												Thank you very much for your work, the project was completed very quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.
+											</div>
+										</div>
+										<div class="about-me__slide swiper-slide">
+											<div class="about-me__avatar">
+												<img src="img/avatar.png" alt="Аватар">
+											</div>
+											<div class="about-me__name">Lincoln Burrows</div>
+											<div class="about-me__text">
+												Thanks to Michael for doing everything efficiently on time and without broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not included in the original.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="about-me__controls">
+								<button class="about-me__prev about-me__button">
+									<span>
+										<svg width="42" height="24" viewBox="0 0 42 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M41.7396 10.6247H5.88291L14.1325 2.37517L12.188 0.430664L0.618805 11.9998L12.188 23.569L14.1325 21.6245L5.88273 13.3747H41.7396V10.6247Z" fill="white" />
+										</svg>
+									</span>
+								</button>
+								<button class="about-me__next about-me__button">
+									<span>
+										<svg width="42" height="24" viewBox="0 0 42 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M41.7396 10.6247H5.88291L14.1325 2.37517L12.188 0.430664L0.618805 11.9998L12.188 23.569L14.1325 21.6245L5.88273 13.3747H41.7396V10.6247Z" fill="white" />
+										</svg>
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container _container">
+				<div class="footer__body">
+					<h3 class="footer__title">Calculate the timing and cost of your project</h3>
+					<h4 class="footer__sub-title">Leave your phone number for communication</h4>
+					<form action="#" class="footer__form">
+						<div class="footer__item">
+							<input placeholder="Name" class="footer__input" type="text">
+						</div>
+						<div class="footer__item">
+							<input placeholder="Phone" class="footer__input" type="text">
+						</div>
+						<div class="footer__item">
+							<textarea placeholder="Message" class="footer__textarea" name=""></textarea>
+						</div>
+						<button class="footer__send">
+							Discuss the project
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/app.min.js?_v=20220811193745"></script>
+</body>
+
+</html>
